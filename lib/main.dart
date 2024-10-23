@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences_practice/screens/home.dart';
+import 'package:shared_preferences_practice/screens/practice.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Shared Preferences',
-      home:HomeScreen(),
-      
+      home: Practice(),
     );
   }
 }

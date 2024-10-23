@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences_practice/base_class.dart';
 
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class Practice extends StatefulWidget {
+  const Practice({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<Practice> createState() => _PracticeState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _PracticeState extends State<Practice> {
 
   @override
   void initState() {
